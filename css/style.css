@@ -1,0 +1,78 @@
+body{
+    background: grey;
+}
+
+body * {
+    margin: 0px;
+    color: red;
+}
+
+#container{
+    background: black;
+    border: solid 2px red;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    margin-top: 50px;
+}
+
+table button{
+    width: 150px;
+}
+
+table{
+    width: 15%;
+    float: left;
+    margin-left: 20px;
+    display:inline;
+}
+
+#fill{
+    float: left;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 3%;
+    overflow-y: scroll;
+    text-align: center;
+    
+    display:inline;
+}
+
+#fill div{
+    width: 40%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+#fill div p{
+    margin-left: 50px;
+}
+
+label, input{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+h1{
+    margin: 100px auto 0 auto;
+    text-align: center;
+    background: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 80%;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+label{
+    margin-right: 5px;
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+}
